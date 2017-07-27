@@ -111,9 +111,9 @@ namespace COMP123_S2017_Lesson11B
         /// this method returns the list of the 5 top cards of the deck
         /// </summary>
         /// <returns></returns>
-        public List<Card> Deal5()
+        public Hand Deal5()
         {
-            List<Card> FiveCard = new List<Card> {this[0],this[1],this[2],this[3],this[4] };
+            Hand FiveCard = new Hand {this[0],this[1],this[2],this[3],this[4] };
             this.RemoveRange(0, 5);
             // for testing/ debugging only
             Console.WriteLine("Dealt 5 cards - Sixe of Deck: " + this.Count);

@@ -26,16 +26,21 @@ namespace COMP123_S2017_Lesson11B
             Console.WriteLine("Shuffled");
             Console.WriteLine(deck.ToString());
 
-            hand.Add(deck.Deal1());
-            Console.WriteLine(hand.ToString());
-            Console.WriteLine();
-            hand.Add(deck.Deal1());
-            Console.WriteLine(hand.ToString());
+            //hand.Add(deck.Deal1());
+            //Console.WriteLine(hand.ToString());
+            //Console.WriteLine();
+            //hand.Add(deck.Deal1());
+            //Console.WriteLine(hand.ToString());
 
+            //Console.WriteLine();
+            //Console.WriteLine(deck.ToString());
+
+
+            hand = deck.Deal5(); // moves the top 5 cards from the deck to the hand object
+            Console.WriteLine(hand);
             Console.WriteLine();
             Console.WriteLine(deck.ToString());
 
-            //hand = deck.Deal5(); // moves the top 5 cards from the deck to the hand object
         }
     }
 }
