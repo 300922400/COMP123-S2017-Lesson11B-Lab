@@ -12,6 +12,7 @@ using System.Text;
 
 namespace COMP123_S2017_Lesson11B
 {
+    [Flags]
     public enum Face
     {
         Ace = 1,

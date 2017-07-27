@@ -50,5 +50,11 @@ namespace COMP123_S2017_Lesson11B
 
             return outputString;
         }
+        public Hand HighestCard(Hand sortedlist)
+        {
+            var filtered = from value in sortedlist
+                           orderby value.Face
+                           where value.Face == Face.King
+        }
     }
 }

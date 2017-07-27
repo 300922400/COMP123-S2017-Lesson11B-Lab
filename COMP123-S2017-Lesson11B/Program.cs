@@ -38,8 +38,8 @@ namespace COMP123_S2017_Lesson11B
 
             hand = deck.Deal5(); // moves the top 5 cards from the deck to the hand object
             Console.WriteLine(hand);
-            Console.WriteLine();
-            Console.WriteLine(deck.ToString());
+            //Console.WriteLine();
+            //Console.WriteLine(deck.ToString());
 
         }
     }
